@@ -1,4 +1,4 @@
-module sale-tickets-golang-common
+module github.com/duyhung2k4/sale-tickets-golang-common
 
 go 1.24.0
 
