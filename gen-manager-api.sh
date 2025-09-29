@@ -9,4 +9,6 @@ protoc \
     --grpc-gateway_out=. \
     --openapiv2_out=manager-api/docs \
     --openapiv2_opt logtostderr=true \
-    manager-api/api/*.proto \
+    manager-api/api/*.proto
+cp manager-api/docs/manager-api/api/* manager-api/docs
+rm -rf manager-api/docs/manager-api
